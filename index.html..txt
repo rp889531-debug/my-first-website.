@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        main {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>A clean and simple HTML5 template</p>
+    </header>
+
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a basic webpage built using standard HTML and CSS. It automatically adjusts to fit both desktop and mobile screens.</p>
+
+        <h3>Key Features Included</h3>
+        <ul>
+            <li><strong>Semantic Structure:</strong> Uses header, main, and footer tags.</li>
+            <li><strong>Clean Styling:</strong> Includes simple CSS for readable fonts and card layouts.</li>
+            <li><strong>Links:</strong> Visit <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a> to learn more about web development.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Simple Webpage</p>
+    </footer>
+
+</body>
+</html>
